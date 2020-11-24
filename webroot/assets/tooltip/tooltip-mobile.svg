@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 360 640" xml:space="preserve"><style>.st1{fill:#151515}.st6{fill:#00f}</style><path d="M540 5370c-3.9 0-7 3.1-7 7s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7zm0 12.6c-3.1 0-5.6-2.5-5.6-5.6 0-3.1 2.5-5.6 5.6-5.6 3.1 0 5.6 2.5 5.6 5.6 0 1.5-.6 2.9-1.7 4-1 1.1-2.4 1.6-3.9 1.6zm3-7.2c0 1.9-2 1.9-2 2.6v.2c0 .2-.2.3-.3.3h-1.3c-.2 0-.3-.2-.3-.3v-.2c0-1 .8-1.4 1.3-1.7.5-.3.8-.5.8-.8 0-.5-.6-.8-1.1-.8-.7 0-1 .3-1.4.8-.1.1-.3.2-.5.1l-.8-.6c-.1-.1-.2-.3-.1-.5.6-1 1.7-1.6 2.8-1.5 1.5-.1 2.8 1 2.9 2.4zm-1.8 4.8c0 .7-.5 1.2-1.2 1.2s-1.2-.5-1.2-1.2.5-1.2 1.2-1.2 1.2.5 1.2 1.2z" transform="translate(-360 -5020)"/><circle cx="541" cy="5377" r="22" opacity=".5" fill="red" transform="translate(-361 -5020)"/><path class="st1" d="M497 298l-10-10h20l-10 10z" transform="translate(-317 44)"/><path class="st1" d="M43 266h274c1.7 0 3 1.3 3 3v60c0 1.7-1.3 3-3 3H43c-1.7 0-3-1.3-3-3v-60c0-1.7 1.3-3 3-3z"/><text transform="translate(64 304)" font-size="14" font-family="RedHatText-Regular" fill="#fff">Here is information you should know.</text><g opacity=".03"><path class="st6" d="M704 4846h16v640h-16z" transform="translate(-360 -4846)"/><path fill="red" d="M376 4846h328v640H376z" transform="translate(-360 -4846)"/><path class="st6" d="M360 4846h16v640h-16z" transform="translate(-360 -4846)"/></g></svg>
+=======
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
   <defs>
     <filter id="Rectangle" x="34" y="263" width="292" height="78" filterUnits="userSpaceOnUse">
@@ -32,3 +35,4 @@
     </g>
   </g>
 </svg>
+>>>>>>> main
