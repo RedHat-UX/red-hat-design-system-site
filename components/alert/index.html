@@ -1,0 +1,764 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Alert | Red Hat digital design system</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.redhat.com/misc/favicon.ico" type="image/x-icon" />
+
+  
+  
+  <script src="/js/global.js"></script>
+
+  <meta property="og:title" content="Red Hat digital design system">
+  <meta property="og:site_name" content="Red Hat digital design system">
+  <meta property="og:url" content="ux.redhat.com">
+  <meta property="og:description" content="This is Red Hat's digital design system. Using Red Hat brand standards and PatternFly as our foundational design language, we enable designers and developers to concurrently build branded experiences across redhat.com, openshift.com, Red Hat Customer Portal, and beyond.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://ux.redhat.com/assets/opengraph.png">
+
+  <link rel="stylesheet" href="https://static.redhat.com/libs/redhat/redhat-theme/4/advanced-theme.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" rel="stylesheet" href="//static.redhat.com/libs/redhat/redhat-font/2/webfonts/red-hat-font.css" media="all" />
+  
+  <link rel="stylesheet" href="/node_modules/@patternfly/pfelement/dist/pfelement.min.css">
+  <noscript>
+    <link type="text/css" href="/node_modules/@patternfly/pfelement/dist/pfelement--noscript.min.css">
+  </noscript>
+
+  <script type="module" src="/node_modules/@patternfly/pfe-cta/dist/pfe-cta.min.js"></script>
+</head>
+
+
+
+
+  
+
+
+<body class="page page--alert" id="top" unresolved>
+
+  <div class="body-inner">
+
+    
+
+
+
+<script type="text/javascript">
+(function() { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = '//api.usersnap.com/load/4a8eca9f-e612-466c-ba21-5c98236daf99.js';
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+</script>
+
+<header class="l-header">
+
+  <div class="l-header__logo-bar">
+    <a href="/"><img class="l-header__logo" src="/assets/red-hat-digital-design-system.svg" alt="Red Hat digital design system" style="max-width:240px;min-width:240px;" /></a>
+    
+  </div>
+  <input id="mobile-menu-toggle" class="menu-toggle element-invisible" type="checkbox" aria-controls="mobile-menu-menu-container">
+  <label class="menu-toggle__button l-header__mobile-menu-toggle" for="mobile-menu-toggle" data-controls="mobile-menu-menu-container">
+    <span class="l-header__burger-icon"></span>
+    <span class="menu-toggle-assistive-text element-invisible">Toggle menu visibility</span>
+  </label>
+  <div class="menu-toggle__toggleable site-navigation__outer-wrapper">
+    <nav class="l-header__site-navigation site-navigation menu-toggle__toggleable-content-wrapper">
+      <ul class="site-navigation__wrapper">
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/">
+    Home
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/about/">
+    About this website
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+          
+          <details >
+            <summary class="site-navigation__heading">Foundations</summary>
+            <ul class="site-navigation__sub-menu">
+              <li class="site-navigation__sub-menu__item">
+                
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/">
+    Overview
+  </a>
+
+              </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/spacing/">
+    Spacing
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/grid/">
+    Grid
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/optimization/">
+    Optimization patterns
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/typography/">
+    Typography
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/color/">
+    Color
+  </a>
+
+                </li></ul>
+          </details>
+        </li>
+        <li class="site-navigation__item">
+          
+          
+            
+          
+          <details  open>
+            <summary class="site-navigation__heading">Components</summary>
+            <ul class="site-navigation__sub-menu">
+              <li class="site-navigation__sub-menu__item">
+                
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/">
+    All components
+  </a>
+
+              </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/accordion/">
+    Accordion
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+    
+  
+  <a class="site-navigation__sub-menu__link site-navigation__sub-menu__link--active" href="/components/alert/">
+    Alert
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/announcement-banner/">
+    Announcement banner
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/audio-player/">
+    Audio player
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/blockquote/">
+    Block quote
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/button/">
+    Button
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/call-to-action/">
+    Call to action
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/card/">
+    Card
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/default-avatar/">
+    Default avatar
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/disclosure/">
+    Disclosure
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/filter/">
+    Filter
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/form/">
+    Form
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/jump-links/">
+    Jump links
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/link-with-icon/">
+    Link with icon
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/modal/">
+    Modal
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/navigation/">
+    Navigation
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/progress-steps/">
+    Progress steps
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/promo-banner/">
+    Promo banner
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/search-bar/">
+    Search bar
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/skip-navigation/">
+    Skip navigation
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/sticky-banner/">
+    Sticky banner
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/sticky-card/">
+    Sticky card
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/tabs/">
+    Tabs
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/tooltip/">
+    Tooltip
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/video-thumbnail/">
+    Video thumbnail
+  </a>
+
+                </li></ul>
+          </details>
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/design-code-status/">
+    Design/code status
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/release-notes/">
+    Release notes
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/get-started/">
+    Get started
+  </a>
+
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="l-main">
+  <article class="l-main__inner">
+    <header class="l-main__header l-main__header--palette-lighter">
+      <div class="container header">
+        <h1 class="page-title">Alert</h1>
+      </div>
+    </header>
+    <div class="l-main__content">
+      <div class="container">
+        
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Overview">Overview</h2>
+    <p>Alerts are banners used to notify a user about a change in status or communicate other information. They can appear with or without a user triggering a specific action.</p>
+  </section>
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Sample%20component">Sample component</h2>
+    <div>
+    <img src="/assets/alert/alert-sample-1.svg" alt="Example of an inline alert and a toast alert" style="--inline-img-max-width: 587px;margin-left: -18px;">
+  </div>
+  </section>
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Component%20status">Component status</h2>
+    <rhds-component-status component="Alert"></rhds-component-status>
+  </section>
+
+
+  
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Style">Style</h2>
+    <p>Alerts can be used in the light theme only. There are two alert variants that feature multiple styles, depending on the severity of the message that's being communicated.</p>
+
+  
+  <div class="example example--palette-light">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-style-1.svg" alt="Anatomy of an alert" style="--example-img-max-width: 591px;">
+  </div>
+  </div>
+
+
+  <h3>Inline</h3>
+  <p>Inline alerts can be placed in a container or a component and shouldn’t block other content. The required elements include a bar or a border, an icon, a title, and a container. Text that provides more information about the alert may or may not be included. Sometimes a close button is required if an inline alert needs to be dismissible.</p>
+
+  
+  <div class="example example--palette-light">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-style-2.svg" alt="Example of a simple and complex inline alert element" style="--example-img-max-width: 555px;">
+  </div>
+  </div>
+
+
+  <p>The alternate inline alert style features a border instead of a horizontal line on top which is used to express more urgency or to grab the attention of a user.</p>
+
+    
+  <div class="example example--palette-light">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-style-2-inline.svg" alt="Example of a simple and complex inline alert element in alternate style" style="--example-img-max-width: 555px;">
+  </div>
+  </div>
+
+
+  <h3>Toast</h3>
+  <p>Toast alerts slide into view in the top right corner of the page and rest on top of content. The required elements include a bar, an icon, a title, a close button, and a white container with a drop shadow. Text that provides more information about the alert may or may not be included.</p>
+
+  
+  <div class="example example--palette-light">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-style-3.svg" alt="Example of a simple and complex Toast alert element" style="--example-img-max-width: 597px;">
+  </div>
+  </div>
+
+  </section>
+
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Usage">Usage</h2>
+    <p>Alerts are notifications that appear or are generated to communicate with users or attract their attention.</p>
+
+  <h3>Inline</h3>
+  <p>Use to present simple information or a local notification, like after a user submits a form with errors. Inline alerts should be informational or identify any actions that are required before a user can continue. They should also have the option to be dismissible.<p>
+
+  <h3>Toast</h3>
+  <p>Use to present a notification about an important global event or a change. Toast alerts shouldn’t interrupt a user’s workflow therefore they should always be dismissible.</p>
+
+  <h3>Severity</h3>
+  <p>Severity communicates the urgency of an alert. The combination of a status icon, a title, and the container style all help to clarify severity levels of alerts.</p>
+  <div class="multi-column--min-400-wide">
+    
+  <div class="example example--palette-light">
+    
+    
+    <div class="centered">
+      <img src="/assets/alert/alert-usage-1.svg" alt="Levels of severity for inline alert elements" style="--example-img-max-width: 310px;">
+    </div>
+  </div>
+
+    
+  <div class="example example--palette-light">
+    
+    
+    <div class="centered">
+      <img src="/assets/alert/alert-usage-2.svg" alt="Levels of severity for toast alert elements" style="--example-img-max-width: 500px;">
+    </div>
+  </div>
+
+
+
+  </div>
+
+      <div class="multi-column--min-400-wide margin-top--4">
+        <div>
+            <h4>Default</h4>
+            <p>Use to indicate generic information or a message with no severity.</p>
+        </div>
+        <div>
+            <h4>Info</h4>
+            <p>Use to indicate helpful information or a message with little to no severity.</p>
+        </div>
+        <div>
+            <h4>Success</h4>
+            <p>Use to indicate success information, like if a task was completed successfully.</p>
+        </div>
+        <div>
+            <h4>Warning</h4>
+            <p>Use to indicate a cautious severity, like a non-blocking error.</p>
+        </div>
+        <div>
+            <h4>Danger</h4>
+            <p>Use to indicate a critical severity, like a blocking error.</p>
+        </div>
+      </div>
+  </section>
+
+
+<hr class="margin-top--2 margin-bottom--10">
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Positioning">Positioning</h2>
+    <h3>Inline</h3>
+  <p>Inline alerts appear at the top of a container or a component and push other content down. Inline alerts also have no fixed width, they conform to the width of whatever container they’re placed in and they persist until a user dismisses them or navigates away from the page.</p>
+
+  <div class="centered">
+    <img src="/assets/alert/alert-positioning-1.svg" alt="Inline alert in context on a page">
+  </div>
+
+  <h3>Toast</h3>
+  <p>Toast alerts slide in from the top right edge of the screen under the navigation and overlay content. Toast alerts also have a fixed width of 600px and they persist until they time out after eight seconds or when a user dismisses them.</p>
+
+  <div class="centered">
+    <img src="/assets/alert/alert-positioning-2.svg" alt="Toast alert in context on a page">
+  </div>
+  </section>
+
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Best%20practices">Best practices</h2>
+    <p>Don't use inline alerts to communicate messages about an important global event or a change.</p>
+  
+  <div class="example example--palette-wrong">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-bestpractice-1.svg" alt="Inline alert in the top right corner of a page">
+  </div>
+  </div>
+
+
+  <p>Don’t use Toast alerts to present simple information or a local notification.</p>
+  
+  <div class="example example--palette-wrong">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-bestpractice-2.svg" alt="Toast alert positioned at the top of a page">
+  </div>
+  </div>
+
+
+
+  <p>Don’t use different alert variants in the same area.</p>
+  
+  <div class="example example--palette-wrong">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-bestpractice-3.svg" alt="Inline alert and Toast alert stacked on top of each other">
+  </div>
+  </div>
+
+  </section>
+
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Behavior">Behavior</h2>
+    <h3>Stacking</h3>
+  <p>If the same alert variant appears in the same area, they stack. The most recent alert should appear at the top of the stack and push other alerts down. When stacked alerts are dismissed or time out, the remaining alerts will move up and fill the empty space.</p>
+
+  <div class="centered margin-top--4 margin-bottom--4" >
+    <img src="/assets/alert/alert-behavior-1.svg" alt="Example of multiple stacked Toast alerts">
+  </div>
+
+  <h3>Responsive design</h3>
+  <p>On small screens, both alert variants will span the full column and be positioned in the center of the layout. Toast alerts will continue to stack on top of each other, so be mindful of how much vertical space the group will occupy if there are multiple alerts.</p>
+  </section>
+
+
+<hr class="margin-top--10 margin-bottom--10">
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Breakpoints">Breakpoints</h2>
+    <p>Alerts are banners that respond to changes in screen size just like other layouts.</p>
+
+  <h3>Large screens</h3>
+
+  <div class="margin-top--4 margin-bottom--4">
+    <img src="/assets/alert/alert-breakpoints-1.svg" alt="Example of an inline and Toast alert on desktop" style="margin-left: -18px;">
+  </div>
+
+  <p class="footnote">The maximum width of a Toast alert on all screens is six grid columns</p>
+
+  <h3>Small screens</h3>
+
+  <div class="margin-top--4 margin-bottom--4">
+    <img src="/assets/alert/alert-breakpoints-2.svg" alt="Example of an inline and Toast alert on mobile" style="--inline-img-max-width: 368px;">
+  </div>
+  </section>
+
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Interaction%20states">Interaction states</h2>
+    <p>The only interactive elements in both alert variants are buttons and links.</p>
+
+  <h3>Default</h3>
+  
+  <div class="example example--palette-light">
+    
+    
+  <div class="centered" style="--example-img-max-width: 595px;">
+    <img src="/assets/alert/alert-interaction-1.svg" alt="Example of a default toast alert">
+  </div>
+  </div>
+
+
+  <h3>Focus</h3>
+  
+  <div class="example example--palette-light">
+    
+    
+  <div class="centered" style="--example-img-max-width: 595px;">
+    <img src="/assets/alert/alert-interaction-2.svg" alt="Example of a Toast alert with focus indicator">
+  </div>
+  </div>
+
+
+  <h3>Hover</h3>
+  
+  <div class="example example--palette-light">
+    
+    
+  <div class="centered">
+    <img src="/assets/alert/alert-interaction-3.svg" alt="Example of a Toast alert with hover state" style="--example-img-max-width: 595px;">
+  </div>
+  </div>
+
+  </section>
+
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Spacing">Spacing</h2>
+    <p>Both alert variants use <a href="https://www.patternfly.org/v4/guidelines/spacers">PatternFly 4 spacers</a> to define spacing values between elements.</p>
+
+
+  <div class="example example--palette-light">
+    
+    
+<div class="centered">
+  <img src="/assets/alert/alert-spacing-1.svg" alt="Inline alert with spacers" style="--example-img-max-width: 595px;">
+</div>
+  </div>
+
+
+<img class="margin-top--1" src="/assets/alert/alert-spacing-2.svg" alt="Toast alert with edge spacers">
+  </section>
+
+
+
+<div class="multi-column--min-300-wide">
+
+  
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Related%20components">Related components</h2>
+    <section class="related">
+    <ul>
+      <li><a href="../form">Form</a></li>
+    </ul>
+  </section>
+  </section>
+
+
+  
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Feedback">Feedback</h2>
+    <p>For feedback and bug reports concerning PatternFly Elements components, create an issue <a href="https://github.com/patternfly/patternfly-elements">in the GitHub repository</a>. </p>
+  </section>
+
+</div>
+
+      </div>
+    </div>
+  </article>
+    
+
+  <footer class="main-footer">
+    <img style="max-width: 135px;" src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark.svg" alt="Red Hat" />
+    <p>Copyright &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> Red Hat, Inc.</p>
+    <div class="main-footer--list">
+      <ul>
+        <li><a href="https://www.redhat.com/en/about/privacy-policy">Privacy statement</a></li>
+        <li><a href="https://www.redhat.com/en/about/terms-use">Terms of use</a></li>
+        <li><a href="https://www.redhat.com/en/about/all-policies-guidelines">All policies and guidelines</a></li>
+      </ul>
+    </div>
+  </footer> 
+
+<div class="back-to-top">
+    <a href="#top" class="back-to-top-link">
+        <img src="/assets/back-to-top.svg" alt="Scroll back to the top">
+    </a>
+</div>
+
+</main>
+
+
+  </div>
+</body>
+
+</html>

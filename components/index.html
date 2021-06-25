@@ -1,0 +1,812 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Components | Red Hat digital design system</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="https://www.redhat.com/misc/favicon.ico" type="image/x-icon" />
+
+  
+  
+  <script src="/js/global.js"></script>
+
+  <meta property="og:title" content="Red Hat digital design system">
+  <meta property="og:site_name" content="Red Hat digital design system">
+  <meta property="og:url" content="ux.redhat.com">
+  <meta property="og:description" content="This is Red Hat's digital design system. Using Red Hat brand standards and PatternFly as our foundational design language, we enable designers and developers to concurrently build branded experiences across redhat.com, openshift.com, Red Hat Customer Portal, and beyond.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://ux.redhat.com/assets/opengraph.png">
+
+  <link rel="stylesheet" href="https://static.redhat.com/libs/redhat/redhat-theme/4/advanced-theme.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" rel="stylesheet" href="//static.redhat.com/libs/redhat/redhat-font/2/webfonts/red-hat-font.css" media="all" />
+  
+  <link rel="stylesheet" href="/node_modules/@patternfly/pfelement/dist/pfelement.min.css">
+  <noscript>
+    <link type="text/css" href="/node_modules/@patternfly/pfelement/dist/pfelement--noscript.min.css">
+  </noscript>
+
+  <script type="module" src="/node_modules/@patternfly/pfe-cta/dist/pfe-cta.min.js"></script>
+</head>
+
+
+
+
+  
+
+
+<body class="page page--components" id="top" unresolved>
+
+  <div class="body-inner">
+
+    
+
+
+
+<script type="text/javascript">
+(function() { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = '//api.usersnap.com/load/4a8eca9f-e612-466c-ba21-5c98236daf99.js';
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); })();
+</script>
+
+<header class="l-header">
+
+  <div class="l-header__logo-bar">
+    <a href="/"><img class="l-header__logo" src="/assets/red-hat-digital-design-system.svg" alt="Red Hat digital design system" style="max-width:240px;min-width:240px;" /></a>
+    
+  </div>
+  <input id="mobile-menu-toggle" class="menu-toggle element-invisible" type="checkbox" aria-controls="mobile-menu-menu-container">
+  <label class="menu-toggle__button l-header__mobile-menu-toggle" for="mobile-menu-toggle" data-controls="mobile-menu-menu-container">
+    <span class="l-header__burger-icon"></span>
+    <span class="menu-toggle-assistive-text element-invisible">Toggle menu visibility</span>
+  </label>
+  <div class="menu-toggle__toggleable site-navigation__outer-wrapper">
+    <nav class="l-header__site-navigation site-navigation menu-toggle__toggleable-content-wrapper">
+      <ul class="site-navigation__wrapper">
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/">
+    Home
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/about/">
+    About this website
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+          
+          <details >
+            <summary class="site-navigation__heading">Foundations</summary>
+            <ul class="site-navigation__sub-menu">
+              <li class="site-navigation__sub-menu__item">
+                
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/">
+    Overview
+  </a>
+
+              </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/spacing/">
+    Spacing
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/grid/">
+    Grid
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/optimization/">
+    Optimization patterns
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/typography/">
+    Typography
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/foundations/color/">
+    Color
+  </a>
+
+                </li></ul>
+          </details>
+        </li>
+        <li class="site-navigation__item">
+          
+          
+            
+          
+          <details  open>
+            <summary class="site-navigation__heading">Components</summary>
+            <ul class="site-navigation__sub-menu">
+              <li class="site-navigation__sub-menu__item">
+                
+  
+  
+    
+  
+  <a class="site-navigation__sub-menu__link site-navigation__sub-menu__link--active" href="/components/">
+    All components
+  </a>
+
+              </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/accordion/">
+    Accordion
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/alert/">
+    Alert
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/announcement-banner/">
+    Announcement banner
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/audio-player/">
+    Audio player
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/blockquote/">
+    Block quote
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/button/">
+    Button
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/call-to-action/">
+    Call to action
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/card/">
+    Card
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/default-avatar/">
+    Default avatar
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/disclosure/">
+    Disclosure
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/filter/">
+    Filter
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/form/">
+    Form
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/jump-links/">
+    Jump links
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/link-with-icon/">
+    Link with icon
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/modal/">
+    Modal
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/navigation/">
+    Navigation
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/progress-steps/">
+    Progress steps
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/promo-banner/">
+    Promo banner
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/search-bar/">
+    Search bar
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/skip-navigation/">
+    Skip navigation
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/sticky-banner/">
+    Sticky banner
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/sticky-card/">
+    Sticky card
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/tabs/">
+    Tabs
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/tooltip/">
+    Tooltip
+  </a>
+
+                </li><li class="site-navigation__sub-menu__item">
+                  
+  
+  
+  <a class="site-navigation__sub-menu__link" href="/components/video-thumbnail/">
+    Video thumbnail
+  </a>
+
+                </li></ul>
+          </details>
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/design-code-status/">
+    Design/code status
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/release-notes/">
+    Release notes
+  </a>
+
+        </li>
+        <li class="site-navigation__item">
+          
+  
+  
+  <a class="site-navigation__link" href="/get-started/">
+    Get started
+  </a>
+
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main class="l-main">
+  <article class="l-main__inner">
+    <header class="l-main__header l-main__header--palette-lighter">
+      <div class="container header">
+        <h1 class="page-title">Components</h1>
+      </div>
+    </header>
+    <div class="l-main__content">
+      <div class="container">
+        
+<!--NOTE: all images in this view need to be 340px by 200px in order to maintain same ratio-->
+
+
+
+
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Overview">Overview</h2>
+    <p>Components are interactive building blocks of our design system. Each component was created to meet a specific UI and accessibility need. Components should be used harmoniously together in the same space to create more intuitive user experiences.</p>
+  </section>
+
+
+<!-- note: all component SVG images should be 340x200px -->
+
+  <div class="multi-column--min-400-wide margin-top--10">
+
+    <div class="padding-stacked">
+      <a href="../components/accordion">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/accordion.svg" alt="Accordion" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Accordion</h3>
+        <p>Toggles the visibility of multiple sections of content</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/alert">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/alert.svg" alt="Alert" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Alert</h3>
+      <p>Communicates a change in status or other information</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/announcement-banner">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/announcement-banner.svg" alt="Announcement banner" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Announcement banner</h3>
+        <p>Announcement an important message across websites</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/audio-player">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/audio-player.svg" alt="Audio player" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Audio player</h3>
+      <p>Plays and controls audio clips in a web browser</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/avatar">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/avatar.svg" alt="avatar" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Avatar</h3>
+        <p>A placeholder graphic for a photo or image</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/blockquote">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/blockquote.svg" alt="Block quote" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Block quote</h3>
+        <p>A styled customer quote with attribution</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/button">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/button.svg" alt="Button" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Button</h3>
+        <p>Allows a user to perform an action when triggered</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/call-to-action">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/call-to-action.svg" alt="Call to action" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Call to action</h3>
+        <p>Directs a user to other pages or displays extra content</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/card">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/card.svg" alt="Card" style="--inline-img-max-width: 330px;">
+  </div>
+
+        <h3>Card</h3>
+        <p>Gives a preview of information in a small layout</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/disclosure">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/disclosure.svg" alt="Disclosure" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Disclosure</h3>
+        <p>Toggles the visibility of one section of content</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/filter">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/filter.svg" alt="Filter" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Filter</h3>
+        <p>Sorts a data set by predetermined sections and tags</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/form">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/form.svg" alt="Form" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Form</h3>
+        <p>Collects a specific amount of information from a user</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/jump-links">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/jump-links.svg" alt="Jump links" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Jump links</h3>
+        <p>Moves a user to content when a link is selected</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/link-with-icon">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/link-with-icon.svg" alt="Link with icon" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Link with icon</h3>
+        <p>An icon next to a link that adds extra context</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/modal">
+        
+  <div class="example example--palette-descriptive-gray">
+    
+    
+          <img src="/assets/components/modal.svg" alt="Modal" style="--inline-img-max-width: 320px;">
+  </div>
+
+        <h3>Modal</h3>
+        <p>Displays information or helps a user focus on a task</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/navigation">
+        
+  <div class="example example--palette-descriptive">
+    
+    
+          <img src="/assets/components/navigation.svg" alt="Navigation" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Navigation</h3>
+        <p>Helps a user move seamlessly through a website</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/promo-banner">
+        
+  <div class="example example--palette-descriptive-light-gray">
+    
+    
+          <img src="/assets/components/promo-banner.svg" alt="Promo banner" style="--inline-img-max-width: 340px;">
+  </div>
+
+        <h3>Promo banner</h3>
+        <p>Advertises a promotional message or offer</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+      <a href="../components/search-bar">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/search-bar.svg" alt="Search bar" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Search bar</h3>
+      <p>Anchored to the bottom edge of a page as content scrolls</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+    <a href="../components/skip-nav">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/skip-nav.svg" alt="Skip nav" style="--inline-img-max-width: 330px;">
+  </div>
+
+      <h3>Skip navigation</h3>
+      <p>Jumps a user down to the main section of content</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+    <a href="../components/sticky-banner">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/sticky-banner.svg" alt="Sticky banner" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Sticky banner</h3>
+      <p>Anchored to the bottom edge of a page as content scrolls</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+    <a href="../components/sticky-card">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/sticky-card.svg" alt="Sticky card" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Sticky card</h3>
+      <p>Anchored to the right edge of a page as content scrolls</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+    <a href="../components/tabs">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/tabs.svg" alt="Tabs" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Tabs</h3>
+      <p>Organizes content in a contained view on the same page</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+    <a href="../components/tooltip">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/tooltip.svg" alt="Tooltip" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Tooltip</h3>
+      <p>Provides helpful information when hovered or focused</p>
+      </a>
+    </div>
+
+    <div class="padding-stacked">
+    <a href="../components/video-thumbnail">
+      
+  <div class="example example--palette-descriptive">
+    
+    
+        <img src="/assets/components/video-thumbnail.svg" alt="Video thumbnail" style="--inline-img-max-width: 340px;">
+  </div>
+
+      <h3>Video thumbnail</h3>
+      <p>Indicates that a video can be played inline or in a modal</p>
+      </a>
+    </div>
+
+  </div>
+
+<hr class="margin-bottom--10">
+
+<div class="multi-column--min-300-wide">
+
+  <div>
+  
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Feedback">Feedback</h2>
+    <p>To give feedback about an existing component or pattern or to request a new one, <a href="https://github.com/patternfly/patternfly-elements">contact us</a>.</p>
+  </section>
+
+  </div>
+  <div>
+  
+  <section class="section section--palette-default container">
+    <h2 class="section-title pfe-jump-links-panel__section" id="Foundations">Foundations</h2>
+    <p>To learn more about color, grid, and typography usage, visit the <a href="../foundations">Foundations section</a>.</p>
+  </section>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </article>
+    
+
+  <footer class="main-footer">
+    <img style="max-width: 135px;" src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--on-dark.svg" alt="Red Hat" />
+    <p>Copyright &copy;<script type="text/javascript">document.write(new Date().getFullYear());</script> Red Hat, Inc.</p>
+    <div class="main-footer--list">
+      <ul>
+        <li><a href="https://www.redhat.com/en/about/privacy-policy">Privacy statement</a></li>
+        <li><a href="https://www.redhat.com/en/about/terms-use">Terms of use</a></li>
+        <li><a href="https://www.redhat.com/en/about/all-policies-guidelines">All policies and guidelines</a></li>
+      </ul>
+    </div>
+  </footer> 
+
+<div class="back-to-top">
+    <a href="#top" class="back-to-top-link">
+        <img src="/assets/back-to-top.svg" alt="Scroll back to the top">
+    </a>
+</div>
+
+</main>
+
+
+  </div>
+</body>
+
+</html>
